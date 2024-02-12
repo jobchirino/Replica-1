@@ -16,6 +16,9 @@ body{
     display:flex;
     justify-content:space-around;
 
+    /* por lo general es buena idea colocar las 
+    propiedades del display arriba y luego los colores y demas */
+
 }
 
 .every header{
@@ -104,6 +107,14 @@ li{
 }
 .first{
     color:#B3B3B3;
+    /* la siguiente linea hara que la transicion 
+    de un cambio de color o tamaño sea suave
+    como una animacion
+    -investiga la propiedad transition
+    - quita y coloca la linea de codigo siguiente
+    para que veas la diferencia
+    */
+    transition: all 300ms ease-in-out;
 }
 .first:hover{
     color:black;
